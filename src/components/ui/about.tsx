@@ -28,9 +28,9 @@ export function About() {
               />
             </div>
             <div className="space-y-6 text-muted-foreground flex-1 order-1 md:order-2">
-              <p> I'm a passionate developer with a love for building and exploring new technologies. My journey began with a deep curiosity about how things work on the internet, taking websites and apps apart just to see what makes them tick. One of my very first projects was a small Minecraft plugin, and from that moment, I was hooked!
+              <p> I&apos;m a passionate developer with a love for building and exploring new technologies. My journey began with a deep curiosity about how things work on the internet, taking websites and apps apart just to see what makes them tick. One of my very first projects was a small Minecraft plugin, and from that moment, I was hooked!
               </p>
-              <p> Since then, I've been diving into code, experimenting, breaking things, and constantly learning. When I'm not coding, you'll find me exploring the latest tech trends, contributing to open-source projects, or picking up new skills to push my development game even further.
+              <p> Since then, I&apos;ve been diving into code, experimenting, breaking things, and constantly learning. When I&apos;m not coding, you&apos;ll find me exploring the latest tech trends, contributing to open-source projects, or picking up new skills to push my development game even further.
               </p>
             </div>
           </div>

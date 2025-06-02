@@ -40,7 +40,7 @@ export function Contact() {
           <div className="w-full">
             <div className="flex flex-col md:flex-row md:items-center gap-6 w-full">
               <p className="text-muted-foreground md:w-1/2">
-                I'm always open to new opportunities and collaborations. Feel free to reach out! (っ'ヮ'c)
+                I&apos;m always open to new opportunities and collaborations. Feel free to reach out! (っ&apos;ヮ&apos;c)
               </p>
               <div className="flex flex-wrap md:w-1/2 md:justify-end gap-4">
                 {socialLinks.map((link) => (

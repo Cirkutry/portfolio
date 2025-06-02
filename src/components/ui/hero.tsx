@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 
 export function Hero() {
   const [showTitle, setShowTitle] = useState(true);
@@ -30,7 +31,7 @@ export function Hero() {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src="/bg.jpg" alt="Background" className="w-full h-full object-cover" />
+        <Image src="/bg.jpg" alt="Background" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black/60" />
       </div>
       <div className="absolute inset-0" />
@@ -57,7 +58,7 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
             >
-              Hi, I'm
+              Hi, I&apos;m
             </motion.h2>
           </div>
           <motion.p 
