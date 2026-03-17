@@ -4,6 +4,9 @@ import "./globals.css"
 import ClientLayout from "./client-layout"
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL("https://kre0lidge.is-a.dev/"),
+
   title: "Kre0lidge - Portfolio",
   description: "Simple portfolio showcasing projects and skills!",
   appleWebApp: {

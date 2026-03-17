@@ -4,15 +4,12 @@ import { motion } from "framer-motion";
 import { 
   SiTypescript, 
   SiJavascript, 
-  SiPython, 
+  SiPython,
+  SiPhp,
   SiReact,
   SiNextdotjs,
-  SiTailwindcss,
   SiNodedotjs,
-  SiGit,
-  SiDocker,
-  SiHtml5,
-  SiCss3
+  SiDocker
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
@@ -21,14 +18,11 @@ const skills = [
   { name: "TypeScript", icon: SiTypescript },
   { name: "JavaScript", icon: SiJavascript },
   { name: "Python", icon: SiPython },
+  { name: "PHP", icon: SiPhp },
   { name: "React", icon: SiReact },
   { name: "Next.js", icon: SiNextdotjs },
-  { name: "Tailwind CSS", icon: SiTailwindcss },
   { name: "Node.js", icon: SiNodedotjs },
-  { name: "Git", icon: SiGit },
-  { name: "Docker", icon: SiDocker },
-  { name: "HTML", icon: SiHtml5 },
-  { name: "CSS", icon: SiCss3 },
+  { name: "Docker", icon: SiDocker }
 ];
 
 export function Skills() {
@@ -53,12 +47,15 @@ export function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group relative bg-background/50 rounded-lg p-3 border border-white/10 hover:border-primary/20 transition-colors flex items-center justify-center"
+                className="group flex flex-col items-center gap-2"
               >
-                <skill.icon className="w-8 h-8 text-primary transition-transform group-hover:scale-110" />
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-background/90 rounded-lg">
-                  <span className="text-sm font-medium">{skill.name}</span>
+                <div className="relative w-full bg-background/50 rounded-lg p-3 border border-white/10 hover:border-primary/20 transition-colors flex items-center justify-center">
+                  <skill.icon className="w-8 h-8 text-primary transition-transform md:group-hover:scale-110" />
+                  <div className="absolute inset-0 hidden md:flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-background/90 rounded-lg">
+                    <span className="text-sm font-medium">{skill.name}</span>
+                  </div>
                 </div>
+                <span className="md:hidden text-xs font-medium text-center">{skill.name}</span>
               </motion.div>
             ))}
           </div>

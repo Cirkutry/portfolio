@@ -27,6 +27,20 @@ const projects: Project[] = [
 		source: "https://github.com/Cirkutry/application-bot",
 	},
 	{
+		title: "Infernal Mobs",
+		description:
+			"Infernal Mobs is a Minecraft plugin that adds a new level of challenge and excitement to the game by introducing powerful and unique mobs with special abilities.",
+		tags: ["Java"],
+		source: "https://github.com/Cirkutry/infernal-mobs"
+	},
+	{
+		title: "Cashfree Payments UPI",
+		description:
+			"Cashfree Payments UPI gateway for Azuriom is a plugin that allows Azuriom users to integrate Cashfree's UPI payment gateway into their applications!",
+		tags: ["PHP"],
+		source: "https://github.com/Cirkutry/cashfreepayment"
+	},
+	{
 		title: "PartyChat",
 		description:
 			"PartyChat is a lightweight and efficient Minecraft plugin with private in-game party chats.",
