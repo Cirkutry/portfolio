@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://kre0lidge.is-a.dev/"),
 
   title: "Kre0lidge - Portfolio",
-  description: "Simple portfolio showcasing projects and skills!",
+  description: "My portfolio, showcasing projects and skills!",
   appleWebApp: {
     title: "Kre0lidge - Portfolio"
   },
   openGraph: {
     title: "Kre0lidge - Portfolio",
-    description: "Simple portfolio showcasing projects and skills!",
+    description: "My portfolio, showcasing projects and skills!",
     type: "website",
     images: [
       {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Kre0lidge - Portfolio",
-    description: "Simple portfolio showcasing projects and skills!",
+    description: "My portfolio, showcasing projects and skills!",
     creator: "@kre0lidge",
     images: ["/twitter-image.png"]
   }
